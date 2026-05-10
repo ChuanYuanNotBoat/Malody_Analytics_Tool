@@ -1,0 +1,59 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Runtime logs and local state
+logs/
+*.log
+config/settings.json
+config/settings.local.json
+logs/tasks/*.jsonl
+
+# Local runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.tmp
+*.temp
+*.orig
+
+# Packaging outputs
+*.exe
+*.msi
+
+# Python tooling
+.tox/
+.nox/
+.hypothesis/
+htmlcov/
+
+# Local secrets
+.env
+.env.*
